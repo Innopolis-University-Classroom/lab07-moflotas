@@ -22,7 +22,7 @@ public:
         return num1 * num2;
     }
 
-    T divide() {
+    double divide() {
         return num1 / num2;
     }
 };
