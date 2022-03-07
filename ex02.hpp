@@ -10,19 +10,19 @@ private:
 public:
     Calculator(T n1, T n2) : num1(n1), num2(n2) {}
 
-    int add() {
+    T add() {
         return num1 + num2;
     }
 
-    int subtract() {
+    T subtract() {
         return num1 - num2;
     }
 
-    int multiply() {
+    T multiply() {
         return num1 * num2;
     }
 
-    int divide() {
+    T divide() {
         return num1 / num2;
     }
 };
